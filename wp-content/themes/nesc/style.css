@@ -1,0 +1,98 @@
+/*
+Theme Name: Nesc
+Theme URI: --
+Author: Matheus Beltrão
+Author URI: 
+Description: Aqui você coloca a descrição.
+
+*/
+a{
+	text-decoration: none;
+	color: black;
+}
+
+div .whiteletter{
+	color: white;
+}
+
+div .whiteletter a{
+	color: white;
+}
+
+.grayletter{
+	color: #d4d4d4;
+}
+
+.grayletter a{
+	color: #d4d4d4;
+}
+
+.roboto{
+	font-family: 'Roboto', 'sans-serif';
+}
+
+.droid{
+	font-family: 'Droid Serif', 'serif';
+}
+
+.font10{
+	font-size: 10pt;
+}
+
+.font11{
+	font-size: 11pt;
+}
+
+.font12{
+	font-size: 12pt;
+}
+
+.font14{
+	font-size: 14pt;
+}
+
+.CAPS{
+	text-transform: uppercase;
+}
+
+#news{
+	color: #4a5d8e;
+	background-color: white;
+}
+#news:hover{
+	color:white;
+	background-color: #4a5d8e;
+}
+
+
+/* FOOTER #######################################################################################################################
+*/
+
+.footer{
+	padding: 30px 0;
+	margin-top: 30px;
+	padding-bottom: 45px;
+}
+
+.bgblack{
+	background: #343434;
+}
+
+.linhafooter{
+	height: 2px;
+	background-color: #969696;
+	margin: 20px 0;
+	padding: 0;
+}
+
+.linhafooterbaixo{
+	margin: 30px 0 10px 0;
+}
+
+.titulofooter{
+	margin-bottom: 5px;
+}
+
+.subfooter{
+	padding-top: 3px;
+}
