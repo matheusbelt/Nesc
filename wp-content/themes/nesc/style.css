@@ -6,6 +6,23 @@ Author URI:
 Description: Aqui você coloca a descrição.
 
 */
+
+/* GERAL ############################################################################## */
+
+.bgwhite{
+	background-color: white;
+}
+
+/*.bgtexture{
+	background-image: url("texture.png");
+	background-repeat: repeat-x;
+
+} */
+
+.bggray{
+	background-color: #e7e7e7;
+}
+
 a{
 	text-decoration: none;
 	color: black;
@@ -25,6 +42,10 @@ div .whiteletter a{
 
 .grayletter a{
 	color: #d4d4d4;
+}
+
+.opensans{
+	font-family: 'Open Sans', sans-serif;
 }
 
 .roboto{
@@ -51,25 +72,71 @@ div .whiteletter a{
 	font-size: 14pt;
 }
 
+.font15{
+	font-size: 15pt;
+}
+
 .CAPS{
 	text-transform: uppercase;
 }
 
-#news{
-	color: #4a5d8e;
-	background-color: white;
+
+
+/* HEADER ####################################################################################################################### 
+*/
+
+.Nesctitulo{
+	color: #4a567a;
+	padding-top: 10px;
+	margin-top: 30px;
 }
-#news:hover{
+
+
+/* MENU #################################################################################################################### 
+*/
+.menubotao{
+	padding: 10px 0;
+}
+
+.menubotao:hover, .menubotao a:hover{
 	color:white;
 	background-color: #4a5d8e;
 }
 
+/* NOTICIAS #####################################################################################################################
+*/
+
+#noticias{
+	background-color: #f4aa69;
+	margin-top: 35px;
+}
+
+.noticias-titulo{
+	font-family: 'Arial', 'sans-serif';
+	font-size: 37pt;
+}
+
+.noticiasbotao:hover, .noticiasbotao:hover h3{
+	background-color: #ca7220;
+	color: white;
+	text-decoration: none;
+}
+
+.noticiasbotao h3{
+	border: 3px solid #ca7220;
+}
+
+.decoracao{
+	height: 5px;
+	background-color: #ca7220;
+	margin-top: -10px;
+}
 
 /* FOOTER #######################################################################################################################
 */
 
 .footer{
-	padding: 30px 0;
+	padding: 20px 0;
 	margin-top: 30px;
 	padding-bottom: 45px;
 }

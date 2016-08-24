@@ -1,35 +1,42 @@
 <?php get_header(); ?>
-	
-	<!-- HEADER -->
-	<div class="container-fluid">
+<body class="bggray">
+	<!-- HEADER #####################################################################################################
+	-->
+	<div class="container-fluid" id="head">
 		<div class="row">
-			<div class="col-xs-4">IMAGEM</div>
-			<div class="col-xs-4">Nucleo de Estudo de Saude Comportamental</div>
+			<div class="col-xs-offset-1 col-xs-3">
+				<a href="index.php"><img src="trunk/logo_min.png" alt="Nesc"></a>
+			</div>
+			<div class="col-xs-4 text-center">
+				<h1 class="Nesctitulo roboto">Núcleo de Estudos<br> em Saúde Coletiva</h1>
+			</div>
 			<div class="col-xs-4">UFPB</div>
 		</div>
 	</div>
 
 <!-- MENU ##########################################################################################################
 	-->
-	<div class="container-fluid">
+	<div class="container-fluid bgwhite" id="menu">
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-2" id="news">Notícias</div>
-				<div class="col-xs-2">Quem Somos</div>
-				<div class="col-xs-2">Cursos</div>
-				<div class="col-xs-2">Agenda</div>
-				<div class="col-xs-2">Contato</div>
-				<div class="col-xs-2">Institucional</div>
+			<div class="row roboto font15 text-center">
+
+				<a href="#noticias"><div class="col-xs-2 menubotao">Notícias</div></a>
+				<a href="#"><div class="col-xs-2 menubotao">Quem Somos</div></a>
+				<a href="#"><div class="col-xs-2 menubotao">Cursos</div></a>
+				<a href="#"><div class="col-xs-2 menubotao">Agenda</div></a>
+				<a href="#"><div class="col-xs-2 menubotao">Contato</div></a>
+				<a href="#"><div class="col-xs-2 menubotao">Institucional</div></a>
 			</div>
 		</div>
 	</div>
 
 <!-- NOTÍCIAS ###########################################################################################################
 -->
-	<div class="container-fluid">
+	<div class="container-fluid"  id="noticias">
 		<div class="container">
 			<div class="row">
-				<h1 class="noticias-titulo text-center">Notícias</h1>
+				<h1 class="noticias-titulo text-center whiteletter">Notícias</h1>
+				<div class="col-xs-offset-4 col-xs-4 decoracao"></div>
 			</div>
 
 			<div class="row">
@@ -57,8 +64,8 @@
 			</div>
 
 			<div class="row">
-				<div class="col-xs-12 text-center">
-					<h3>Ver todos</h3>
+				<div class="col-xs-offset-5 col-xs-2 text-center">
+					<a href="" class="noticiasbotao"><h3 class="font14">Ver todos</h3></a>
 				</div>
 			</div>
 		</div>
@@ -72,7 +79,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 text-center">
-					<h1>Quem Somos</h1>
+					<h1 class="noticias-titulo">Quem Somos</h1>
+					<div class="col-xs-offset-4 col-xs-4 decoracao"></div>
 				</div>
 			</div>
 			<div class="row">
@@ -148,7 +156,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 text-center">
-					<h1>Contato</h1>
+					<h1 class="noticias-titulo whiteletter">Contato</h1>
+					<div class="col-xs-offset-4 col-xs-4 decoracao"></div>
 				</div>
 			</div>
 			<div class="row">

@@ -7,8 +7,9 @@
     <meta name="description" content="lorem">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title(); ?></title>
-
     
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
     <script src="https://code.jquery.com/jquery.min.js"></script>
