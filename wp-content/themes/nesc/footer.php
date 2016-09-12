@@ -8,20 +8,20 @@
 			<div class="row">
 				<div class="col-xs-2">
 					<div class="row">
-						<div class="col-xs-12 whiteletter titulofooter font12 CAPS"><a href="">Noticias</a></div>
+						<div class="col-xs-12 whiteletter titulofooter font12 CAPS"><a href="#" class="scroll-link" data-id="noticias">Noticias</a></div>
 					</div>
 					<div class="row">
-						<div class="col-xs-12 subfooter"><a href="">Mais recentes</a></div>
+						<div class="col-xs-12 subfooter"><a href="#" class="scroll-link" data-id="noticias">Mais recentes</a></div>
 						</div>
 				</div>	
 
 				<div class="col-xs-2">
 					<div class="row">
-						<div class="col-xs-12 whiteletter titulofooter font12 CAPS"><a href="">Quem Somos</a></div>
+						<div class="col-xs-12 whiteletter titulofooter font12 CAPS"><a href="#" class="scroll-link" data-id="quemsomos">Quem Somos</a></div>
 					</div>
 
 					<div class="row">
-						<div class="col-xs-12 subfooter"><a href="">Missao</a></div>
+						<div class="col-xs-12 subfooter"><a href="#" class="scroll-link" data-id="missao">Missao</a></div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12 subfooter"><a href="">Nossa Equipe</a></div>
@@ -62,14 +62,14 @@
 
 				<div class="col-xs-2">
 					<div class="row">
-						<div class="col-xs-12 whiteletter titulofooter font12 CAPS"><a href="">Contato</a></div>
+						<div class="col-xs-12 whiteletter titulofooter font12 CAPS"><a href="#" class="scroll-link" data-id="contato">Contato</a></div>
 					</div>
 
 					<div class="row">
-						<div class="col-xs-12 subfooter"><a href="">Como chegar</a></div>
+						<div class="col-xs-12 subfooter"><a href="#" class="scroll-link" data-id="mapa">Mapa</a></div>
 					</div>
 					<div class="row">
-						<div class="col-xs-12 subfooter"><a href="">Facebook</a></div>
+						<div class="col-xs-12 subfooter"><a href="https://www.facebook.com/nesc.ufpb/?ref=bookmarks">Facebook</a></div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12 subfooter"><a href="">Twitter</a></div>

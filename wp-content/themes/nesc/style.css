@@ -9,18 +9,51 @@ Description: Aqui você coloca a descrição.
 
 /* GERAL ############################################################################## */
 
+html, body{
+	font-family: 'Droid Serif', serif;
+}
+
+.box-shadow{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+}
+.bgdarkorange{
+	background-color: #733600;
+}
+
+.bgorange{
+	background-color: #f09f58;
+}
+
+.bgblack{
+	background: #343434;
+}
+
+.bgbluehover{
+	background-color:#4a5d8e;
+}
+
+.bgblue{
+	background-color: #6f83b6;
+}
+
+.bgdarkblue{
+	background: #35456f;
+}
+
+.bgdarkerblue{
+	background-color: #1a2542;
+}
+
 .bgwhite{
 	background-color: white;
 }
 
-/*.bgtexture{
-	background-image: url("texture.png");
-	background-repeat: repeat-x;
-
-} */
-
 .bggray{
 	background-color: #e7e7e7;
+}
+
+.bgdarkgray{
+	background-color: #343434;
 }
 
 a{
@@ -44,8 +77,16 @@ div .whiteletter a{
 	color: #d4d4d4;
 }
 
+.bold{
+	font-weight: bold;
+}
+
+.arial{
+	font-family: 'Arial', 'sans-serif';
+}
+
 .opensans{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', 'sans-serif';
 }
 
 .roboto{
@@ -76,6 +117,10 @@ div .whiteletter a{
 	font-size: 15pt;
 }
 
+.font18{
+	font-size: 18pt;
+}
+
 .CAPS{
 	text-transform: uppercase;
 }
@@ -88,27 +133,120 @@ div .whiteletter a{
 .Nesctitulo{
 	color: #4a567a;
 	padding-top: 10px;
-	margin-top: 30px;
+	margin-top: 60px;
 }
 
+#head{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
 
 /* MENU #################################################################################################################### 
 */
-.menubotao{
-	padding: 10px 0;
+.fixo{
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index: 1;
 }
-
+#menu .container{
+	max-width: 1020px;
+}
+.menubotao{
+	padding: 15px 40px;
+	float: left;
+	margin: 0 auto;
+	display: inline-block;
+}
+button.cursosbg{
+	border:none;
+	background: white;
+	font-weight: normal;
+	color: #000;
+	display: inline-block;
+}
+.cursosbg:hover, .cursosbg:focus{
+	background: #4a5d8e;
+	color: white;
+}
 .menubotao:hover, .menubotao a:hover{
 	color:white;
 	background-color: #4a5d8e;
 }
 
+#dropdowndomenu{
+	list-style-type: none;
+	margin:0;
+	padding: 10px 0;
+	background: white;
+	border: none;
+	border-radius: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+#dropdowndomenu:hover,#dropdowndomenu:focus {
+	background: #4a5d8e;
+	color: white;
+}
+.dropdown-menu{
+	padding-bottom: 0;
+	padding-top: 0;
+}
+#menucaido li a{
+	color:white;
+	padding: 5px 5px 5px 5px;
+	font-size: 1.5em;
+	display: block;
+}
+
+#menucaido{
+	border-radius: 0;
+	margin:0;
+	border:none;
+	border-radius: 0 0 1px 1px;
+	position: absolute;
+	top:57px;
+	left: 355px;
+}
+
+#menucaido .bgdarkblue a:hover, #menucaido .bgbluehover a:hover{
+	background: #35456f;
+	color: #d4d4d4;
+}
+
+#menucaido2 li a{
+	color:white;
+	padding: 10px 16px 5px 5px;
+	font-size: 1.5em;
+	display: block;
+}
+
+#menucaido2{
+	border-radius: 0;
+	margin:0;
+
+	border:none;
+	position: absolute;
+	top:57px;
+	left: 813px;
+}
+
+#menucaido2 .bgdarkblue a:hover{
+	background: #35456f;
+	color: #d4d4d4;
+}
+
+#menucaido2 .bgbluehover a:hover{
+	background: #4a5d8e;
+	color:#d4d4d4;
+}
 /* NOTICIAS #####################################################################################################################
 */
 
 #noticias{
-	background-color: #f4aa69;
 	margin-top: 35px;
+	padding-bottom: 10px;
 }
 
 .noticias-titulo{
@@ -117,21 +255,100 @@ div .whiteletter a{
 }
 
 .noticiasbotao:hover, .noticiasbotao:hover h3{
-	background-color: #ca7220;
+	background-color: #733600;
 	color: white;
 	text-decoration: none;
 }
 
 .noticiasbotao h3{
-	border: 3px solid #ca7220;
+	border: 5px solid #733600;
+	border-radius: 1px;
+	padding: 10px 0;
+	text-transform: capitalize;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	margin-bottom: 30px;
 }
 
 .decoracao{
 	height: 5px;
-	background-color: #ca7220;
 	margin-top: -10px;
 }
 
+.bloconoticia{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding-left: 0;
+	float: left;
+	display: inline-block;
+	border-radius: 1px;
+	box-shadow: 0 5px 20px 2px rgba(0,0,0,0.55);
+	transition: .2s;
+}
+.bloconoticia:hover{
+	box-shadow: 0 5px 5px 1px rgba(0,0,0,.5);
+}
+.noticiathumbnail img{
+	width: 100%;
+	max-height: 400px;
+	float: left;
+	display: block;
+	transition: 1s;
+}
+.noticiathumbnail{
+	padding-left: 0;
+}
+
+.noticiatexto{
+	float: right;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.noticiatitulo a:hover, .noticiaconteudo a:hover{
+	color: ;
+	text-decoration: none;
+}
+
+.noticiatitulo, .noticiaconteudo{
+	margin-top: 10px;
+}
+
+.noticiaconteudo{
+	opacity: 0.9;
+}
+
+/* QUEM SOMOS ##################################################################################################################
+ */
+
+#quemsomos{
+	margin-top: 35px;
+	padding-bottom: 10px;
+}
+
+/* CONTATO ######################################################################################################################
+ */
+
+#contato{
+	margin-top: 35px;
+	padding-bottom: 10px;
+}
+
+.mapa{
+	height: 300px;
+	margin-top: 20px;
+}
+
+#chegar img{
+	margin-right: 10px;
+}
+#chegar{
+	margin-top: 15px;
+}
+.info{
+	margin-bottom: 0;
+	margin-top: 10px;
+}
 /* FOOTER #######################################################################################################################
 */
 
@@ -141,9 +358,6 @@ div .whiteletter a{
 	padding-bottom: 45px;
 }
 
-.bgblack{
-	background: #343434;
-}
 
 .linhafooter{
 	height: 2px;
@@ -162,4 +376,11 @@ div .whiteletter a{
 
 .subfooter{
 	padding-top: 3px;
+}
+
+/* outros ##################################################### */ 
+
+#quatrocentos{
+	padding: 30px 0;
+	margin-top: 30px;
 }
